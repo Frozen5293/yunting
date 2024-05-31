@@ -1,0 +1,87 @@
+{
+    "getStaticData": { 
+        "url": "/web/interactive/getInterface",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }  },
+        "getProvinceList":{
+            "url":"/web/appProvince/list/all",
+            "method": "get",
+            "header":{
+                "Content-Type":"application/json",
+                "equipmentId":"0000",
+                "platformCode": "WEB",
+                "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+            }
+        },
+    "getRadioCategoryList": {
+        "url": "/web/appCategory/list/all",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }
+    },
+    "getRadioList": {
+        "url": "/web/appBroadcast/list",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }
+    },
+    "getListenBackList": {
+        "url": "/web/appBroadcast/listenbackList",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }
+    },
+    "getProgramList": {
+        "url": "/web/appProgram/listByDate",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        } },
+    "getPageByColumn": {
+        "url": "/web/appProgram/pageByColumn",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }  },
+    "getAlbumDetail": {
+        "url": "/web/appAlbum/detail",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }  },
+    "pageByAlbum": {
+        "url": "/web/appSingle/pageByAlbum",
+        "method": "get",
+        "header":{
+            "Content-Type":"application/json",
+            "equipmentId":"0000",
+            "platformCode": "WEB",
+            "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+        }   }
+}
